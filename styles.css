@@ -138,7 +138,7 @@ flex-direction: column;
     text-align: center;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1200px) {
     .avatar{
         border-radius: 50%;
         width: 2.5rem;
@@ -164,22 +164,37 @@ flex-direction: column;
     }
     
     .buyerBox{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 20px;
+        margin-left: 0px;
         background-color: hsl(300, 43%, 22%);
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         padding: 40px;
         font-family: 'League Spartan', sans-serif;
-        margin-top: 15px;
+        margin-top: 0px;
+        height: 170px;
+    }
+
+    .buyerBox1{
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        font-family: 'League Spartan', sans-serif;
+        margin-top: 0px;
+        height: 170px;
     }
     
     .buyerAlign{
         display: flex;
         flex-direction: row;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 300px;
     }
     
     .buyerVerified{
@@ -197,6 +212,7 @@ flex-direction: column;
     }
     
     .desktopTop{
+        display: inline;
         position: absolute;
         left: 0px;
         bottom: 0px;
@@ -205,10 +221,12 @@ flex-direction: column;
     }
     
     .desktopBottom{
+        display: inline;
         position: absolute;
-        left: 0px;
+        /* min-width: 100vh; */
+        right: 0px;
         bottom: 0px;
-        top: 57rem;
+        top: 5rem;
         z-index: -1;
     }
     
@@ -230,8 +248,10 @@ flex-direction: column;
     .headerAlign{
         display: flex;
         flex-direction: row;
-        margin-left: 80px;
-        margin-right: 80px;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 5rem;
     }
     
     .mobileTop{
@@ -241,6 +261,49 @@ flex-direction: column;
     .mobileBottom{
         display: none;
     }
+
+    .outerWrapper1{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .outerWrapper2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outerWrapper3{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .outerWrapper1a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .outerWrapper2a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outerWrapper3a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
     
     .rated{
         font-family: 'League Spartan', sans-serif;
@@ -257,14 +320,15 @@ flex-direction: column;
     .reviewAlign{
     display: flex;
     flex-direction: column;
-        margin-top: 5rem;
+    margin-top: 5rem;
+    width: 30rem;
     }
     
     .reviewWrapper{
         background-color: hsl(300, 24%, 96%);
         width: 25rem;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-top: 15px;
         border-radius: 10px;
         font-size: 15px;
