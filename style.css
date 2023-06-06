@@ -7,9 +7,59 @@
     margin-right: 10px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     color: hsl(303, 10%, 53%);
     line-height: 1.5;
+}
+
+.reviewWrapper1{
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    margin-top: 8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.reviewWrapper2{
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.rated{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 10px;
+}
+
+.starWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.starMargin{
+    margin-left: 10px;
 }
 
 .topWrapper{
