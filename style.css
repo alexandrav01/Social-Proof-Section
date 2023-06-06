@@ -1,10 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
+.avatar{
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+}
+
+.avatarWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buyerName{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.buyerReview{
+    font-size: 16px;
+    font-weight: 400;
+    flex-direction: row;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.buyerWrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 15px;
+    
+}
+
+.buyerVerified{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: hsl(333, 80%, 67%);
+    line-height: 1;
+}
+
 .description{
     position: absolute;
     top: 100%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -58,11 +109,16 @@
     margin-bottom: 10px;
 }
 
+.reviewPosition{
+    position: absolute;
+    bottom: 40%;
+}
+
 .starMargin{
     margin-left: 10px;
 }
 
-.topWrapper{
+.wrapper{
     position: relative;
     text-align: center;
 }
