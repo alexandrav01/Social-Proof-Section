@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+.description{
+    position: absolute;
+    top: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5;
+}
+
+.topWrapper{
+    position: relative;
+    text-align: center;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+}
